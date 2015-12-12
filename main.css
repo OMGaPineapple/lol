@@ -1,0 +1,202 @@
+body {
+    background-color: gray;
+}
+
+.color-box {
+    height: 3px;
+    background-color: lime;
+}
+
+.footer {
+    background-image: url(img/footer.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.twitter i {
+    text-decoration: none;
+    color: #00aced;
+    float: right;
+    padding: 10px 15px;
+}
+
+.git i {
+    text-decoration: none;
+    color: #bd2c00;
+    float: right;
+    padding: 10px 15px;
+}
+
+.linkedIn {
+    text-decoration: none;
+    color: #0077b5;
+    float: right;
+    padding: 10px 15px;
+}
+
+.footer p {
+    visibility: hidden;
+}
+
+.footer i:hover {
+    color: white;
+}
+
+.spacing {
+    padding-top: 600px;
+}
+
+#bootstrap-overide img {
+    width: 100%;
+    height: auto;
+}
+
+#bootstrap-overide li {
+    line-height: 2.6;
+    text-align: left;
+}
+
+#bootstrap-overide h1 {
+    font-size: 40px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.navbar a span {
+    color: lime;
+    font-size: 2rem;
+}
+
+#bootstrap-overide .navbar-brand {
+    font-size: 2rem;
+}
+
+#bootstrap-overide button {
+    display: block;
+    margin-top: 1.5rem;
+}
+
+#bootstrap-overide li {
+    line-height: 2.6;
+    margin-right: 1rem;
+}
+
+.navbar a:hover {
+    color: lime;
+    text-decoration: none;
+}
+
+.navbar button {
+    color: white;
+}
+
+.container2 img {
+    padding-top: 10px;
+    align: center;
+    margin: auto;
+}
+
+.container2 h2 {
+    padding-top: 40px;
+}
+
+.container2 p {
+    padding-left: 30px;
+}
+
+.container2 h2 {
+    padding-left: 30px;
+}
+
+form {
+    padding-top: 25px;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.skills h2 {
+    padding-left: 30px;
+}
+
+.container a {
+    text-align: center;
+}
+
+.header {
+    background-image: url(img/headerSmall.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: 5px;
+}
+
+.form-group i {
+    padding-left: 10px;
+}
+
+@media all and (min-width: 34rem) {
+    #bootstrap-overide ul {
+        min-width: 500px;
+    }
+    #bootstrap-overide li {
+        display: inline;
+        float: left;
+    }
+    .container2 p {
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+    .container2 p {
+        padding-left: 0px;
+    }
+    .container2 img {
+        padding-top: 20px;
+        padding-left: 25px;
+    }
+    .footer p {
+        color: white;
+        font-size: 13px;
+        padding-top: 24px;
+        padding-left: 10px;
+        visibility: visible;
+    }
+    .header {
+        background-image: url(img/header.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 100%;
+        padding: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    -webkit-animation: mymove 5s infinite;  /* Chrome, Safari, Opera */
+    -webkit-animation-timing-function: linear;  /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+    animation-timing-function: linear;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
